@@ -28,9 +28,9 @@ where {
     filter (?newer_date > ?date)
   }
   values ?rel {
-    fip:declares-current-use-of fip:declares-planned-use-of fip:declares-planned-replacement-of
+    fip:declares-current-use-of # fip:declares-planned-use-of fip:declares-planned-replacement-of
     # unofficial:
-    fip:declares-replacement-from fip:declares-replacement-to
+    # fip:declares-replacement-from fip:declares-replacement-to
   }
   optional {?resource rdfs:label ?resourcelabel}
   optional {
